@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: $white;
   text-align: center;
 }
 
@@ -11,19 +11,19 @@ body {
           transform: translate(-50%, -50%);
   display: inline-block;
   z-index: 1;
-  border: 3px solid rgba(255, 255, 255, 0.25);
+  border: 2px solid rgba(190, 103, 157, 0.5);
   padding: 20px 32px;
   font-family: $raleway;
   font-size: 1.125em;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgba(255, 255, 255, 0.75);
-  cursor: pointer;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  color: rgba(190, 103, 157, 0.75);
+  cursor: crosshair;
+  -webkit-transition: all .25s;
+  transition: all .25s;
 }
 .button:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(0, 172, 160, 0.5);
   border-color: transparent;
   color: $white;
 }
@@ -45,13 +45,8 @@ body {
   transition: opacity 1s;
 }
 
-.bg-1 {
-  background-image: url("../images/onion.jpg");
-  opacity: .75;
-}
-
 .bg-2 {
-  background-image: url("../images/fruit.jpg");
+  background-image: url("../images/dancers.jpg");
   opacity: 0;
 }
 
